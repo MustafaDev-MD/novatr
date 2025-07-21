@@ -300,8 +300,8 @@ button .apply-now:hover,
   width: 100%;
 }
 
-.hero-btn-2{
-    background-color: rgb(127, 86, 217);
+.hero-btn-2 {
+  background-color: rgb(127, 86, 217);
   color: rgb(255, 255, 255);
   height: 48px;
   font-size: 16px;
@@ -323,6 +323,125 @@ button .apply-now:hover,
 .hero-btn-2:hover {
   background-color: rgb(105, 65, 198);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 16px 10px, rgba(0, 0, 0, 0.03) 0px 7px 7px, rgba(0, 0, 0, 0.03) 0px 2px 4px, rgba(0, 0, 0, 0.03) 0px 0px 0px;
+}
+
+.hero-left-con-main-2 {
+  grid-column: span 12;
+}
+
+.hero-left-con-main-2 h6 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: rgb(234, 236, 240);
+  display: none;
+}
+
+.hero-left-con-main-2-img-con {
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  z-index: 7;
+  display: none;
+  max-width: 440px;
+}
+
+.hero-left-con-main-2-img-con-1 {
+  margin-right: 16px;
+  display: flex;
+}
+
+.hero-left-con-main-2-img-con-1-img {
+  color: transparent;
+  width: 100%;
+  height: auto;
+}
+
+.hero-bottom-banner {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 1rem;
+  height: 470px;
+  position: relative;
+}
+
+.hero-bottom-banner-main {
+  width: 100%;
+  height: 530px;
+  border-radius: 16px;
+  background: linear-gradient(to right, rgb(37, 117, 252) 0%, rgb(106, 17, 203) 100%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  opacity: 0.99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.hero-bottom-banner-img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.hero-bottom-banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-bottom-banner-content {
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  z-index: 2;
+}
+
+/* .hero-bottom-banner-content {
+  color: transparent;
+  top: -134px;
+  left: 382px;
+} */
+
+.hero-career-path-text {
+  color: rgb(16, 24, 40);
+  font-weight: 600;
+  font-family: 'Figtree', sans-serif;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-career-path-intro {
+  color: rgb(255, 255, 255);
+}
+
+.hero-career-path-highlight,
+.hero-career-path-role {
+  color: rgb(103, 227, 249);
+}
+
+.hero-career-path-con {
+  display: flex;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  flex-direction: column;
+}
+
+.hero-career-text {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.hero-career-text p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Figtree', sans-serif;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
 }
 
 @media (min-width: 600px) {
@@ -369,6 +488,14 @@ button .apply-now:hover,
     height: 504px;
   }
 
+  .hero-main-img img {
+    display: block;
+    right: 28px;
+    top: 50px;
+    width: 513px;
+    height: 570px;
+  }
+
   .hero-left-con-main {
     grid-column: span 6;
   }
@@ -393,9 +520,49 @@ button .apply-now:hover,
     margin-bottom: 3.5rem;
   }
 
-  .hero-btn-1  {
+  .hero-btn-1 {
     grid-row: 1;
-}
+  }
+
+  .hero-left-con-main-2 h6 {
+    text-align: left;
+    display: block;
+  }
+
+  .hero-bottom-banner-main {
+    width: 85%;
+    height: 400px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 32px;
+  }
+
+  .hero-bottom-banner-img img {
+    width: 100%;
+    height: auto;
+    max-height: 432px;
+    object-fit: cover;
+  }
+
+  .hero-bottom-banner-content {
+    padding: 64px;
+  }
+
+  .hero-career-path-text,
+  .hero-career-path-intro,
+  .hero-career-path-role,
+  .hero-career-path-highlight {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-career-text p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -405,6 +572,21 @@ button .apply-now:hover,
     margin-bottom: 28px;
     margin-top: 28px;
   }
+
+  .hero-left-con-main-2-img-con {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  .hero-bottom-banner {
+    height: 400px;
+    margin-bottom: -20px;
+  }
+
+  .hero-career-path-con {
+    flex-direction: row;
+  }
+
 }
 
 @media (min-width: 1368px) {
@@ -431,12 +613,12 @@ button .apply-now:hover,
     font-size: 16px;
     border-radius: 8px;
     padding: 0px 28px;
-}
+  }
 
-.hero-btn-2 {
-  height: 56px;
-  font-size: 16px;
-  border-radius: 8px;
-  padding: 0px 28px;
-}
+  .hero-btn-2 {
+    height: 56px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 0px 28px;
+  }
 }
