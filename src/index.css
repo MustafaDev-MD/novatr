@@ -2434,6 +2434,12 @@ button .apply-now:hover,
   z-index: 3;
 }
 
+.eLLkAw{
+  min-width: 497.337px;
+    max-width: 497.337px;
+    transform: translate3d(-497.337px, 0px, 0px);
+}
+
 @media (min-width: 600px) {
   .btFetW {
     margin-left: auto;
@@ -2785,7 +2791,7 @@ button .apply-now:hover,
 
 .ldkDaU {
   margin-top: unset;
-  position: absolute;
+  position: relative;
   top: -150px;
   z-index: 3;
 }
