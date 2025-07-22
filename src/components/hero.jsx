@@ -63,7 +63,7 @@ function Hero() {
         <div className="hero-bottom-banner">
           <div className="hero-bottom-banner-main">
             <div className="hero-bottom-banner-img">
-              <img src="	https://www.novatr.com/images/home/nextImageExportOptimizer/bg-img-opt-1520.WEBP" alt="" />
+              <img src="https://www.novatr.com/images/home/nextImageExportOptimizer/bg-img-opt-1520.WEBP" alt="" />
             </div>
             <div className="hero-bottom-banner-content">
               <div className="hero-bottom-banner-content-main">
@@ -129,8 +129,14 @@ function Hero() {
                     <p>Discover the most sought-after jobs and skills in your industry</p>
                   </div>
                 </div>
+                <button className='rounded-full hero-bottom-banner-button'>
+                  <span>Discover Your Career Path</span>
+                  <div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF" varient="line" name="svg" class="sc-42e4aaa8-0 eGbXvf"><path d="M6 18L18 6M18 6H10M18 6V14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </div>
+                </button>
               </div>
-              <img src="https://www.novatr.com/images/home/see-quiz-button.svg" alt="" />
+              <img src="https://www.novatr.com/images/home/see-quiz-button.svg" className='hero-hande-img' alt="" />
             </div>
           </div>
         </div>
