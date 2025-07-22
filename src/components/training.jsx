@@ -552,7 +552,62 @@ const Training = () => {
                 </div>
             </div>
 
-            <div style={{ width: "100%" }} className="sc-92373a90-0 blXBmF overflow-hidden absolute">
+            <div className="sc-92373a90-0 kMjFom">
+                <div className="sc-85598a58-0 dCQOMo">
+                    <div className="sc-115b9aa5-0 eMOtyj">
+                        <div className="sc-68483de-0 ehQZnx">
+                            <div className="sc-92373a90-0 cFTwUm">
+                                <div className="sc-92373a90-0 ztOeA" style={{ display: "inline-block", height: "100%", width: "3px" }}></div>
+                            </div>
+                            <div className="sc-92373a90-0 byPjOP" style={{ display: "flex" }}>
+                                <svg
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    color="#"
+                                    stroke="#"
+                                    variant="scaled"
+                                    name="svg"
+                                    className="sc-42e4aaa8-0 fBbAUD"
+                                >
+                                    <path d="M8.22671 20.4815C7.86544 20.4815 7.52553 20.3399 7.27046 20.0837L2.23412 15.0495C1.70823 14.522 1.70879 13.6651 2.23355 13.1393L3.38196 11.9908L2.23468 10.8469C1.70936 10.321 1.70936 9.46421 2.23355 8.9372L7.26821 3.90416C7.52272 3.64908 7.86207 3.50806 8.22334 3.50806C8.58404 3.50806 8.92339 3.64852 9.17847 3.9036L11.0921 5.83973C11.2932 6.06671 11.2842 6.41113 11.0702 6.62688L5.71528 12.0324L10.7786 17.5942C10.9719 17.806 10.9792 18.1279 10.796 18.3487L10.2184 19.0454C10.2072 19.0589 10.1948 19.0724 10.1825 19.0847L9.18128 20.0854C8.92732 20.3405 8.58797 20.4815 8.22671 20.4815ZM4.54047 12.3875C4.51069 12.4516 4.47417 12.5094 4.43147 12.5634C4.40732 12.5931 4.36181 12.6398 4.33259 12.6645L3.04766 13.9523C2.97013 14.0303 2.97013 14.1573 3.04822 14.236L8.084 19.2713C8.13569 19.323 8.19525 19.3308 8.22671 19.3308C8.25761 19.3308 8.3166 19.323 8.36717 19.2724L9.34983 18.2903L9.59142 17.9987L4.69947 12.6257C4.68936 12.6151 4.67981 12.6033 4.67082 12.592C4.61744 12.5297 4.57362 12.4605 4.54047 12.3875ZM8.22334 4.65872C8.17221 4.65872 8.12108 4.67839 8.08175 4.71715L3.04935 9.74963C2.97125 9.82829 2.97069 9.95583 3.04878 10.0339L4.37136 11.3565C4.38709 11.3722 4.41911 11.4071 4.43316 11.4245C4.4826 11.4874 4.52362 11.5565 4.55564 11.6296C4.59722 11.5475 4.65172 11.4711 4.71914 11.4043L9.8611 6.21279L8.36492 4.71715C8.32559 4.67839 8.27446 4.65872 8.22334 4.65872Z" fill="#5925DC"></path>
+                                    <path d="M16.1256 20.4816C15.7644 20.4816 15.425 20.3406 15.1699 20.085L14.1693 19.0849C14.1564 19.0725 14.1446 19.059 14.1328 19.045L13.5558 18.3483C13.3732 18.1275 13.3805 17.8061 13.5738 17.5943L18.6365 12.0331L13.281 6.62703C13.0675 6.41128 13.0586 6.06631 13.2603 5.83932L13.4249 5.65447L15.1739 3.90376C15.684 3.3936 16.574 3.39304 17.0841 3.90432L22.116 8.93623C22.643 9.46324 22.6436 10.3206 22.1171 10.8471L20.9704 11.9944L22.1177 13.1389C22.6447 13.6653 22.6447 14.5227 22.1177 15.0491L17.0819 20.085C16.8263 20.3406 16.4863 20.4816 16.1256 20.4816ZM15.002 18.2904L15.9841 19.272C16.0357 19.3237 16.1161 19.3169 16.1256 19.331C16.156 19.331 16.2155 19.3231 16.2667 19.272L21.3041 14.2361C21.3822 14.158 21.3822 14.0305 21.3041 13.9524L19.981 12.6293C19.9686 12.6169 19.94 12.5866 19.9287 12.5731C19.8821 12.5152 19.8428 12.4534 19.8113 12.3882C19.7782 12.4613 19.7349 12.5298 19.6815 12.5922C19.6725 12.6034 19.663 12.6152 19.6529 12.6259L14.7609 17.9994L15.002 18.2904ZM14.4918 6.21351L19.6349 11.405C19.7018 11.473 19.7563 11.5494 19.7973 11.6314C19.8293 11.5544 19.8714 11.4848 19.9214 11.4218C19.9349 11.4056 19.9653 11.3713 19.9804 11.3567L21.3036 10.0335C21.3817 9.95542 21.3811 9.82788 21.303 9.74922L16.27 4.71787C16.2189 4.66618 16.1594 4.65888 16.129 4.65888C16.1211 4.65944 16.0391 4.66506 15.9874 4.71731L14.4918 6.21351Z" fill="#5925DC"></path>
+                                </svg>
+                            </div>
+                            <div style={{ opacity: 1, transform: "translateX(0px) scale(1) translateZ(0px)" }}>
+                                <div className="sc-92373a90-0 huRFoB">
+                                    <div className="sc-7267286d-0 jnzbPz">
+                                        <h2 className="sc-d80c85c8-0 fOydRC" style={{ color: "#101828" }}>
+                                            Innovative Learning
+                                        </h2>
+                                        <span className="sc-1bcfe909-0 hfddyk"></span>
+                                    </div>
+                                    <div className="sc-92373a90-0 jDVVyT">
+                                        <h3 className="sc-d80c85c8-0 jiZnoN" style={{ color: "#1d2939" }}>
+                                            <span>
+                                                An
+                                                <span style={{ color: "rgb(89, 37, 220)" }}> Unforgettable Experience</span>
+                                            </span>
+                                        </h3>
+                                        <p className="sc-d80c85c8-0 llfxhD" style={{ color: "#475467" }}>
+                                            <span>
+                                                Traditional teaching methods have no place in the modern world. That's why we infuse digital tools with new-age pedagogies to enhance your learning.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="sc-92373a90-0 duAmHM" style={{ height: "250px", display: "flex" }}>
+                                <div className="sc-92373a90-0 ztOeA" style={{ display: "inline-block", height: "100%", width: "3px" }}></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style={{ width: "100%" }} className="sc-92373a90-0 blXBmF relative">
                 <div className="sc-85598a58-0 dCQOMo">
                     <div className="sc-115b9aa5-0 eMOtyj sc-16245d71-1 bfdMuT">
                         <div className="sc-68483de-0 iENhdk">
@@ -596,7 +651,7 @@ const Training = () => {
                             </div>
                         </div>
                         <div className="sc-68483de-0 bZobsC">
-                            <div className="sc-92373a90-0 sc-16245d71-2 hdoshE ldkDaU" style={{ overflow: "hidden", width: "100%" }}>
+                            <div className="sc-92373a90-0 sc-16245d71-2 hdoshE ldkDaU" style={{ overflow: "hidden"}}>
                                 <div className="keen-slider" style={{ width: "100%" }}>
                                     <div className="sc-92373a90-0 sc-c506afef-0 hUMDcf eLLkAw keen-slider__slide relative" style={{ minWidth: 497.337, maxWidth: 497.337, transform: "translate3d(0px, 0px, 0px)" }}>
                                         <img
@@ -609,7 +664,7 @@ const Training = () => {
                                             style={{ position: "absolute", height: "100%", width: "100%", inset: 0, objectFit: "cover", color: "transparent" }}
                                         />
                                     </div>
-                                    <div className="sc-92373a90-0 sc-c506afef-0 hUMDcf eLLkAw keen-slider__slide relative" style={{ minWidth: 497.337, maxWidth: 497.337, transform: "translate3d(0px, 0px, 0px)" }}>
+                                    <div className="sc-92373a90-0 sc-c506afef-0 hUMDcf eLLkAw keen-slider__slide relative hidden" style={{ minWidth: 497.337, maxWidth: 497.337, transform: "translate3d(0px, 0px, 0px)" }}>
                                         <img
                                             alt="Skill Mapping"
                                             loading="lazy"

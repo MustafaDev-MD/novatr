@@ -2308,7 +2308,7 @@ button .apply-now:hover,
 }
 
 .ldkDaU {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 48px;
 }
 
@@ -2401,6 +2401,37 @@ button .apply-now:hover,
   min-height: 845px;
   width: 100%;
   background: white;
+}
+
+.kMjFom {
+  padding-top: 32px;
+}
+
+.ehQZnx {
+  grid-column: span 12;
+  position: relative;
+}
+
+.cFTwUm {
+  display: none;
+  left: -28px;
+  position: absolute;
+}
+
+.byPjOP {
+  display: none;
+  position: absolute;
+  top: 52px;
+  left: -48px;
+}
+
+.duAmHM {
+  display: none;
+  height: 250px;
+  position: absolute;
+  top: 118px;
+  left: -28px;
+  z-index: 3;
 }
 
 @media (min-width: 600px) {
@@ -2537,6 +2568,36 @@ button .apply-now:hover,
 
 .blXBmF {
   min-height: 520px;
+}
+
+.kMjFom {
+  background: rgb(252, 250, 255);
+}
+
+.kMjFom {
+  padding-top: 60px;
+}
+
+.ehQZnx {
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+
+.cFTwUm {
+  top: -940px;
+}
+
+.cFTwUm {
+  height: 968px;
+  display: block;
+}
+
+.byPjOP {
+  display: block;
+}
+
+.duAmHM {
+  display: block;
 }
 
 }
@@ -2757,6 +2818,10 @@ button .apply-now:hover,
   z-index: 1;
 }
 
+.ehQZnx {
+  grid-column: span 6;
+}
+
 }
 
 @media (min-width: 1368px) {
@@ -2770,6 +2835,16 @@ button .apply-now:hover,
     -webkit-box-pack: justify;
     justify-content: space-between;
   }
+}
+
+@media screen and (min-width: 1368px) {
+  .cFTwUm {
+      top: -910px;
+  }
+
+  .cFTwUm {
+    height: 938px;
+}
 }
 
 @media (min-width: 1520px) {
